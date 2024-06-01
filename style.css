@@ -1,0 +1,247 @@
+/* This is to apply the changes to the entire code */
+* {
+  font-family: Nunito, sans-serif;
+  background: #eeedeb;
+}
+
+/* The Principal Menu of my game */
+.main-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* The Title of my game */
+#title-main-menu {
+  font-size: 120px;
+  color: #3c3633;
+}
+
+/* Style for Player vs Player and Player vs AI buttons */
+#player-vs-player,
+#player-vs-ai {
+  padding: 15px 35px;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #eeedeb;
+  background: #3c3633;
+  border: none;
+  width: 300px;
+  margin: 10px;
+  transition: transform 0.4s; /* Smooth transition when interacting */
+}
+
+/* Change of style when hovering the mouse over the buttons */
+#player-vs-player:hover,
+#player-vs-ai:hover {
+  transform: scale(1.1); /* Button growth effect */
+}
+
+/* Style for my copyright text */
+#copyright {
+  position: absolute;
+  bottom: 8px;
+  text-align: center;
+  font-size: 15px;
+  color: #3c3633;
+}
+
+/* Style for my switch players system */
+.switch-players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 260px;
+  height: 120px;
+  color: #302e1f;
+}
+
+/* Style for the active player box */
+.player.active {
+  border: 5px solid #302e1f;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* Smoth animation for my .player */
+.player {
+  transition: border 0.3s; /* Smoth Animation */
+}
+
+/* Style for the players names */
+.name {
+  font-size: 25px;
+}
+
+/* Style for the symbol */
+.symbol {
+  font-size: 25px;
+  color: #302e1f;
+}
+
+/* Style for all the gme table */
+.table {
+  position: absolute;
+  transform: translate(-50%, -50%); /* Perfect centering */
+  top: 50%;
+  left: 50%;
+  display: none;
+}
+
+/* Style for the game board */
+.container {
+  width: 70vmin; /* Width relative to window size */
+  height: 70vmin; /* Height relative to window size */
+  display: flex;
+  flex-wrap: wrap; /* Allows items to be wrapped if they don't fit in a single row */
+  gap: 15px;
+}
+
+/* Style for the squares of the game table */
+.button-config {
+  background: #302e1f;
+  height: 22vmin; /* Relative high for responsiveness */
+  width: 22vmin; /* Relative width for responsiveness */
+  border: none;
+  border-radius: 10px;
+  font-size: 12vmin; /* The size for the symbols */
+  color: #eeedeb;
+  animation: bounceIn 0.8s ease forwards; /* Smoth Animation */
+}
+
+/* Configurate the animation bounceIn */
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Style for the message that appears when someone wins*/
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Perfect centering */
+  background-color: rgba(
+    238,
+    237,
+    235,
+    0.9
+  ); /* Same color than the background but a little bit transparent */
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column; /* Organize the elements in column form */
+  align-items: center;
+  gap: 15px;
+  width: 20%;
+  height: 25%;
+  animation: fadeIn 0.5s ease-in-out; /* Animation FadeIn */
+}
+
+/* Configure the animation fadeIn */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* The level of opacity */
+    transform: translate(-50%, -60%); /* Set the start position */
+  }
+  to {
+    opacity: 1; /* The level of opacity */
+    transform: translate(-50%, -50%); /* Move a little bit the position */
+  }
+}
+
+/* Style for the main message on the screen */
+#message {
+  font-size: 40px;
+  color: #302e1f;
+  text-align: center;
+  margin: 0;
+  background: none;
+}
+
+/* Style for the bottons of the alert */
+#new-game,
+#back-to-menu {
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: #302e1f;
+  color: #eeedeb;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.4s; /* Smooth transition when interacting */
+}
+
+/* Change of style when hovering the mouse over the buttons */
+#new-game:hover,
+#back-to-menu:hover {
+  transform: scale(1.1); /* Button growth effect */
+}
+
+/* Style when the alert is hide */
+.alert.hide {
+  display: none; /* Initially hidden */
+}
+
+/* Style for the squeares who win */
+.winner {
+  border: 10px solid #4caf50;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  #title-main-menu {
+    font-size: 125px;
+  }
+  #player-vs-player,
+  #player-vs-ai {
+    font-size: 40px;
+    width: 400px;
+  }
+  #copyright {
+    font-size: 25px;
+  }
+  .switch-players {
+    gap: 450px;
+    height: 250px;
+  }
+  .name, .symbol {
+    font-size: 30px;
+  }
+  .container {
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .button-config {
+    height: 24vmin;
+    width: 24vmin;
+    font-size: 16vmin;
+  }
+  #message {
+    font-size: 50px;
+  }
+  #new-game,
+  #back-to-menu {
+    font-size: 25px;
+    width: 200px;
+  }
+  .alert {
+    width: 300px;
+    height: 250px;
+  }
+}

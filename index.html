@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Connect the CSS -->
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <!-- To put an image as the logo of the website -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Connect with a google font -->
+  </head>
+  <body>
+    <!-- The Main Menu -->
+    <div class="main-menu">
+      <h1 id="title-main-menu">Tic-Tac-Toe</h1>
+      <button id="player-vs-player">Player vs Player</button>
+      <button id="player-vs-ai">Player vs AI</button>
+      <p id="copyright">Copyright © 2024 Luis Fernández</p>
+    </div>
+
+    <!-- The Switch Table system -->
+    <div class="switch-players">
+      <div class="player" id="playerX">
+        <span class="name">Player</span>
+        <span class="symbol">X</span>
+      </div>
+      <div class="player" id="playerO">
+        <span class="name">Player</span>
+        <span class="symbol">O</span>
+      </div>
+    </div>
+
+    <!-- The game table -->
+    <div class="table">
+      <div class="container">
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+        <button class="button-config"></button>
+      </div>
+    </div>
+
+    <!-- The message when the game finish -->
+    <div class="alert hide">
+      <p id="message"></p>
+      <button id="new-game">New Game</button>
+      <button id="back-to-menu">Back to Menu</button>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- I connect my JavaScript -->
+  </body>
+</html>
