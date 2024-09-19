@@ -16,10 +16,6 @@ Welcome to Tic-Tac-Toe! This is a classic game implemented in HTML, CSS, and Jav
 - **CSS**: Styles and animations.
 - **JavaScript**: Game logic and user interface control.
 
-## 📸 Screenshots
-
-![Main Menu Screenshot](pictures/Screenshots/tic-tac-toe-menu)
-
 ## 🎮 How to Play
 
 1. **Player vs Player**: Select "Player vs Player" to play against a friend.
@@ -32,14 +28,6 @@ Welcome to Tic-Tac-Toe! This is a classic game implemented in HTML, CSS, and Jav
 
 - The game automatically checks the state after each move to determine if there is a winner or if the game ended in a draw.
 - When playing against the AI, it makes random moves in the available cells.
-
-## 🎨 Design
-
-- **Typography**: Uses "Lobster" for the title and "Nunito" for the content.
-- **Color Palette**:
-  - Background: `#eeedeb`
-  - Text and Elements: `#3c3633`, `#302e1f`
-  - Buttons: Smooth transitions and hover effects.
 
 ## 📂 Project Structure
 
@@ -54,17 +42,6 @@ Welcome to Tic-Tac-Toe! This is a classic game implemented in HTML, CSS, and Jav
     git clone https://github.com/A5TUT0/Tic-Tac-Toe.git
     ```
 2. **Open the `index.html` file** in your favorite web browser.
-3. Enjoy the game!
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-Created by **Luis Fernández**. If you have any questions or suggestions, feel free to contact me!
-
-- GitHub: [@A5TUT0](https://github.com/A5TUT0)
-- Email: [youremail@example.com](mailto:youremail@example.com)
 
 Hope you enjoy playing as much as I enjoyed creating it! 🎉
+Luis Fernández
