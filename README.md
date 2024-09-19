@@ -1,26 +1,24 @@
 # Tic-Tac-Toe 🎲
 
-Welcome to Tic-Tac-Toe! This is a classic game implemented in HTML, CSS, and JavaScript, where you can play against another player or an AI. The design is modern and minimalistic, with an easy-to-use interface.
+Welcome to Tic-Tac-Toe! This is a classic game implemented in HTML, CSS, and JavaScript, where you can play against another player or an AI.
 
 ## 🚀 Features
 
 - **Player vs Player**: Play against a friend on the same device.
 - **Player vs AI**: Challenge the computer.
-- **Responsive Design**: Adapts to different screen sizes.
-- **Smooth Animations**: Transitions and animations for a more engaging experience.
 - **Active Turn Indicator**: Clearly shows which player's turn it is.
 - **Restart Game**: Start a new game at any time.
 - **Main Menu**: Easy access to choose the game mode.
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Structure of the game.
-- **CSS3**: Styles and animations.
-- **JavaScript (ES6+)**: Game logic and user interface control.
+- **HTML**: Structure of the game.
+- **CSS**: Styles and animations.
+- **JavaScript**: Game logic and user interface control.
 
 ## 📸 Screenshots
 
-*Include images of the game in different states (Main Menu, Player vs Player, Player vs AI, Game Over, etc.)*
+![Main Menu Screenshot](pictures/Screenshots/tic-tac-toe-menu)
 
 ## 🎮 How to Play
 
