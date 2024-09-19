@@ -44,4 +44,4 @@ Welcome to Tic-Tac-Toe! This is a classic game implemented in HTML, CSS, and Jav
 2. **Open the `index.html` file** in your favorite web browser.
 
 Hope you enjoy playing as much as I enjoyed creating it! 🎉
-Luis Fernández
+Created by **Luis Fernández**.
