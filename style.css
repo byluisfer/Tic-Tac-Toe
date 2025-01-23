@@ -217,8 +217,8 @@
     font-size: 25px;
   }
   .switch-players {
-    gap: 450px;
-    height: 250px;
+    gap: 325px;
+    height: 200px;
   }
   .name, .symbol {
     font-size: 30px;
@@ -243,5 +243,50 @@
   .alert {
     width: 300px;
     height: 250px;
+  }
+  .table {
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 600px) {
+  #title-main-menu {
+    font-size: 80px;
+  }
+  #player-vs-player,
+  #player-vs-ai {
+    font-size: 40px;
+    width: 400px;
+  }
+  #copyright {
+    font-size: 25px;
+  }
+  .switch-players {
+    gap: 120px;
+    height: 225px;
+  }
+  .name, .symbol {
+    font-size: 20px;
+  }
+  .container {
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .button-config {
+    height: 24vmin;
+    width: 24vmin;
+    font-size: 16vmin;
+  }
+  #message {
+    font-size: 50px;
+  }
+  #new-game,
+  #back-to-menu {
+    font-size: 25px;
+    width: 200px;
+  }
+  .alert {
+    width: 225px;
+    height: 225px;
   }
 }
